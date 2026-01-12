@@ -1,4 +1,9 @@
+# Maven target/ - ВСЕ КРОМЕ site/
 target/
+!target/site/
+!target/site/**
+
+# Исключения для wrapper
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -26,7 +31,7 @@ target/
 /nbbuild/
 /dist/
 /nbdist/
-/.nb-gradle/
+/nb-gradle/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
