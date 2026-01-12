@@ -1,0 +1,10 @@
+Benchmark                                 (size)  Mode  Cnt   Score    Error  Units
+QuickSortBenchmark.benchmark1_naive       100000  avgt    3   8,269 ±  2,664  ms/op
+QuickSortBenchmark.benchmark1_naive       500000  avgt    3  45,622 ± 17,182  ms/op
+QuickSortBenchmark.benchmark1_naive      1000000  avgt    3  92,984 ±  6,204  ms/op
+QuickSortBenchmark.benchmark2_improved    100000  avgt    3   6,727 ±  0,311  ms/op
+QuickSortBenchmark.benchmark2_improved    500000  avgt    3  38,617 ±  2,679  ms/op
+QuickSortBenchmark.benchmark2_improved   1000000  avgt    3  81,456 ± 23,553  ms/op
+QuickSortBenchmark.benchmark3_optimized   100000  avgt    3   5,777 ±  0,497  ms/op
+QuickSortBenchmark.benchmark3_optimized   500000  avgt    3  33,143 ±  6,109  ms/op
+QuickSortBenchmark.benchmark3_optimized  1000000  avgt    3  69,403 ±  3,234  ms/op
