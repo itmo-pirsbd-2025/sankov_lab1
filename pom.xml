@@ -24,42 +24,37 @@
             <version>${junit.jupiter.version}</version>
             <scope>test</scope>
         </dependency>
+        <!-- JMH Core для запуска бенчмарков -->
         <dependency>
             <groupId>org.openjdk.jmh</groupId>
             <artifactId>jmh-core</artifactId>
             <version>${jmh.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.openjdk.jmh</groupId>
-            <artifactId>jmh-generator-annprocess</artifactId>
-            <version>${jmh.version}</version>
-            <scope>provided</scope>
-        </dependency>
     </dependencies>
 
     <build>
         <plugins>
+            <!-- JUnit5 тесты -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
             </plugin>
+
+            <!-- Компиляция БЕЗ JMH annotation processor -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
-                    <source>${maven.compiler.source}</source>
-                    <target>${maven.compiler.target}</target>
-                    <annotationProcessorPaths>
-                        <path>
-                            <groupId>org.openjdk.jmh</groupId>
-                            <artifactId>jmh-generator-annprocess</artifactId>
-                            <version>${jmh.version}</version>
-                        </path>
-                    </annotationProcessorPaths>
+                    <source>17</source>
+                    <target>17</target>
+                    <!-- ✅ УБРАЛИ annotationProcessorPaths - ИСПРАВЛЕНИЕ! -->
+                    <proc>none</proc>
                 </configuration>
             </plugin>
+
+            <!-- Запуск JMH бенчмарков -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
@@ -68,24 +63,26 @@
                     <mainClass>org.example.QuickSortBenchmark</mainClass>
                 </configuration>
             </plugin>
-<!--            <plugin>-->
-<!--                <groupId>org.openclover</groupId>-->
-<!--                <artifactId>clover-maven-plugin</artifactId>-->
-<!--                <version>4.5.2</version>-->
-<!--                <configuration>-->
-<!--                    <generateHtml>true</generateHtml>-->
-<!--                    <generateXml>true</generateXml>-->
-<!--                </configuration>-->
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <phase>test</phase>-->
-<!--                        <goals>-->
-<!--                            <goal>instrument</goal>-->
-<!--                            <goal>clover</goal>-->
-<!--                        </goals>-->
-<!--                    </execution>-->
-<!--                </executions>-->
-<!--            </plugin>-->
+
+            <!-- Clover покрытие -->
+            <plugin>
+                <groupId>org.openclover</groupId>
+                <artifactId>clover-maven-plugin</artifactId>
+                <version>4.5.2</version>
+                <configuration>
+                    <generateHtml>true</generateHtml>
+                    <generateXml>true</generateXml>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>instrument</goal>
+                            <goal>clover</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 </project>
