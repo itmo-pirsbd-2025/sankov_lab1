@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b7633dc1-113f-442c-b0bd-3f7f614af290" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Alexsa7161&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/itmo-pirsbd-2025/sankov_lab1.git&quot;,
+    &quot;accountId&quot;: &quot;966d331f-7c84-4523-b42b-218b31e444a2&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="389xRWKue6HQTtUS9iXZeW45sd1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.QuickSortBenchmark.executor": "Run",
+    "Maven.lab1_sort [clean].executor": "Run",
+    "Maven.lab1_sort [compile].executor": "Run",
+    "Maven.lab1_sort [org.jacoco:jacoco-maven-plugin:0.8.11:report].executor": "Run",
+    "Maven.lab1_sort [test].executor": "Run",
+    "Maven.lab1_sort [verify].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Alexsa7161/OneDrive/Рабочий стол/java_labs/lab3/lab3_lock_free_queue",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.25287357",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexsa7161\OneDrive\Рабочий стол\java_labs\lab1\lab1_sort\src\jmh" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.QuickSortBenchmark">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../../../Program Files/Adoptium/jdk-17.0.17+10" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="lab1_sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.QuickSortBenchmark" />
+      <module name="lab1_sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab1_sort [test]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="17" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.QuickSortBenchmark" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Maven.lab1_sort [test]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.QuickSortBenchmark" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7633dc1-113f-442c-b0bd-3f7f614af290" name="Changes" comment="" />
+      <created>1768225581568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768225581568</updated>
+      <workItem from="1768233698686" duration="13305000" />
+      <workItem from="1768494105697" duration="70000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
