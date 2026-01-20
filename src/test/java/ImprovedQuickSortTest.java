@@ -3,7 +3,7 @@ import org.example.sort.SortAlgorithm;
 
 public class ImprovedQuickSortTest extends AbstractSortTest {
     @Override
-    protected SortAlgorithm algorithm() {
+    protected SortAlgorithm getSort() {
         return new ImprovedQuickSort();
     }
 }

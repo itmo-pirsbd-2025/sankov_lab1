@@ -2,111 +2,52 @@ package org.example.sort;
 
 public class OptimizedQuickSort implements SortAlgorithm {
 
-    private static final int INSERTION_THRESHOLD = 16;
-
     @Override
-    public void sort(int[] a) {
-        int l = 0;
-        int r = a.length - 1;
+    public void sort(int[] arr) {
+        qsort(arr, 0, arr.length - 1);
+    }
 
-        while (l < r) {
-            if (r - l < INSERTION_THRESHOLD) {
-                insertionSort(a, l, r);
-                return;
-            }
-
-            int m = (l + r) >>> 1;
-
-            if (a[l] > a[m]) swap(a, l, m);
-            if (a[l] > a[r]) swap(a, l, r);
-            if (a[m] > a[r]) swap(a, m, r);
-
-            int pivot = a[m];
-
-            int i = l;
-            int j = r;
+    private void qsort(int[] arr, int left, int right) {
+        while (left < right) {
+            int pivot = medianOfThree(arr, left, right);
+            int i = left;
+            int j = right;
 
             while (i <= j) {
-                while (a[i] < pivot) i++;
-                while (a[j] > pivot) j--;
+                while (arr[i] < pivot) i++;
+                while (arr[j] > pivot) j--;
+
                 if (i <= j) {
-                    int t = a[i];
-                    a[i] = a[j];
-                    a[j] = t;
+                    swap(arr, i, j);
                     i++;
                     j--;
                 }
             }
 
-            if (j - l < r - i) {
-                if (l < j) {
-                    sortRange(a, l, j);
-                }
-                l = i;
+            if (j - left < right - i) {
+                qsort(arr, left, j);
+                left = i;
             } else {
-                if (i < r) {
-                    sortRange(a, i, r);
-                }
-                r = j;
+                qsort(arr, i, right);
+                right = j;
             }
         }
     }
 
-    private void sortRange(int[] a, int l, int r) {
-        while (l < r) {
-            if (r - l < INSERTION_THRESHOLD) {
-                insertionSort(a, l, r);
-                return;
-            }
+    private int medianOfThree(int[] arr, int left, int right) {
+        int mid = (left + right) >>> 1;
 
-            int m = (l + r) >>> 1;
+        if (arr[left] > arr[mid]) swap(arr, left, mid);
+        if (arr[left] > arr[right]) swap(arr, left, right);
+        if (arr[mid] > arr[right]) swap(arr, mid, right);
 
-            if (a[l] > a[m]) swap(a, l, m);
-            if (a[l] > a[r]) swap(a, l, r);
-            if (a[m] > a[r]) swap(a, m, r);
-
-            int pivot = a[m];
-            int i = l;
-            int j = r;
-
-            while (i <= j) {
-                while (a[i] < pivot) i++;
-                while (a[j] > pivot) j--;
-                if (i <= j) {
-                    int t = a[i];
-                    a[i] = a[j];
-                    a[j] = t;
-                    i++;
-                    j--;
-                }
-            }
-
-            if (j - l < r - i) {
-                sortRange(a, l, j);
-                l = i;
-            } else {
-                sortRange(a, i, r);
-                r = j;
-            }
-        }
+        return arr[mid];
     }
 
-    private void insertionSort(int[] a, int l, int r) {
-        for (int i = l + 1; i <= r; i++) {
-            int key = a[i];
-            int j = i - 1;
-            while (j >= l && a[j] > key) {
-                a[j + 1] = a[j];
-                j--;
-            }
-            a[j + 1] = key;
-        }
-    }
-
-    private void swap(int[] a, int i, int j) {
-        int t = a[i];
-        a[i] = a[j];
-        a[j] = t;
+    private void swap(int[] arr, int i, int j) {
+        int buff = arr[i];
+        arr[i] = arr[j];
+        arr[j] = buff;
     }
 
     @Override

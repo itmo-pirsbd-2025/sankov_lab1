@@ -5,7 +5,202 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7633dc1-113f-442c-b0bd-3f7f614af290" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/QuickSortBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/QuickSortBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sort/ImprovedQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/ImprovedQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sort/NaiveQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/NaiveQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sort/OptimizedQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sort/OptimizedQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AbstractSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AbstractSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ImprovedQuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImprovedQuickSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NaiveQuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NaiveQuickSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OptimizedQuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OptimizedQuickSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/org/example/Main$__CLR4_5_200mkbgfho1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/org/example/Main$__CLR4_5_200mkbgfho1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/org/example/QuickSortBenchmark$__CLR4_5_21515mkbgfhow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/org/example/QuickSortBenchmark$__CLR4_5_21515mkbgfhow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/org/example/QuickSortBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/classes/org/example/QuickSortBenchmark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/org/example/sort/ImprovedQuickSort$__CLR4_5_21k1kmkbgfhp7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/org/example/sort/ImprovedQuickSort$__CLR4_5_21k1kmkbgfhp7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/org/example/sort/ImprovedQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/classes/org/example/sort/ImprovedQuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/org/example/sort/NaiveQuickSort$__CLR4_5_23434mkbgfhph$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/org/example/sort/NaiveQuickSort$__CLR4_5_23434mkbgfhph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/org/example/sort/NaiveQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/classes/org/example/sort/NaiveQuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/org/example/sort/OptimizedQuickSort$__CLR4_5_24141mkbgfhpy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/org/example/sort/OptimizedQuickSort$__CLR4_5_24141mkbgfhpy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/classes/org/example/sort/OptimizedQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/classes/org/example/sort/OptimizedQuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/clover.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.db6hc2td_mkbgfizg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ay6hb81_1_6hc2td_mkbgfj0c.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ay6hb81_1_hovqu7_mkbgfj0c.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ay6hb85_0_6hc2td_mkbgfizh.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ay6hb85_0_hovqu7_mkbgfizh.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ay6hb89_5_6hc2td_mkbgfj1p.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ay6hb89_5_hovqu7_mkbgfj1p.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ay6hb8d_4_6hc2td_mkbgfj1m.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ay6hb8d_4_hovqu7_mkbgfj1m.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ay6hb8h_3_6hc2td_mkbgfj19.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ay6hb8h_3_hovqu7_mkbgfj19.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ay6hb8l_2_6hc2td_mkbgfj0f.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ay6hb8l_2_hovqu7_mkbgfj0f.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ay6hb8u_6_6hc2td_mkbgfj1s.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ay6hb8u_6_hovqu7_mkbgfj1s.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92cx7ld75_8_6hc2td_mkbgfj2d.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92cx7ld75_8_hovqu7_mkbgfj2d.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92cx7ld79_7_6hc2td_mkbgfj27.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92cx7ld79_7_hovqu7_mkbgfj27.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92cx7ld7d_c_6hc2td_mkbgfj3k.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92cx7ld7d_c_hovqu7_mkbgfj3k.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92cx7ld7h_b_6hc2td_mkbgfj38.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92cx7ld7h_b_hovqu7_mkbgfj38.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92cx7ld7l_a_6hc2td_mkbgfj2w.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92cx7ld7l_a_hovqu7_mkbgfj2w.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92cx7ld7p_9_6hc2td_mkbgfj2h.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92cx7ld7p_9_hovqu7_mkbgfj2h.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92cx7ld7y_d_6hc2td_mkbgfj3x.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92cx7ld7y_d_hovqu7_mkbgfj3x.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ew8pf69_f_6hc2td_mkbgfj51.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ew8pf69_f_hovqu7_mkbgfj51.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ew8pf6d_e_6hc2td_mkbgfj4w.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ew8pf6d_e_hovqu7_mkbgfj4w.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ew8pf6h_j_6hc2td_mkbgfj67.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ew8pf6h_j_hovqu7_mkbgfj67.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ew8pf6l_i_6hc2td_mkbgfj64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ew8pf6l_i_hovqu7_mkbgfj64.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ew8pf6p_h_6hc2td_mkbgfj5m.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ew8pf6p_h_hovqu7_mkbgfj5m.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ew8pf6t_g_6hc2td_mkbgfj56.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ew8pf6t_g_hovqu7_mkbgfj56.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ew8pf72_k_6hc2td_mkbgfj6a.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbgvh92ew8pf72_k_hovqu7_mkbgfj6a.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/clover.dbhovqu7_mkbgfizq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/lab1_sort-1.0-SNAPSHOT-clover.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/lab1_sort-1.0-SNAPSHOT-clover.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src-test/AbstractSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src-test/AbstractSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src-test/ImprovedQuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src-test/ImprovedQuickSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src-test/NaiveQuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src-test/NaiveQuickSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src-test/OptimizedQuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src-test/OptimizedQuickSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/org/example/QuickSortBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/org/example/QuickSortBenchmark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/org/example/sort/ImprovedQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/org/example/sort/ImprovedQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/org/example/sort/NaiveQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/org/example/sort/NaiveQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/src/org/example/sort/OptimizedQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/src/org/example/sort/OptimizedQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/surefire-reports/ImprovedQuickSortTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/surefire-reports/ImprovedQuickSortTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/surefire-reports/NaiveQuickSortTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/surefire-reports/NaiveQuickSortTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/surefire-reports/OptimizedQuickSortTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/surefire-reports/OptimizedQuickSortTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/surefire-reports/TEST-ImprovedQuickSortTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/surefire-reports/TEST-ImprovedQuickSortTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/surefire-reports/TEST-NaiveQuickSortTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/surefire-reports/TEST-NaiveQuickSortTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/surefire-reports/TEST-OptimizedQuickSortTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/surefire-reports/TEST-OptimizedQuickSortTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/test-classes/AbstractSortTest$__CLR4_5_27l7lmkbgfhs2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/test-classes/AbstractSortTest$__CLR4_5_27l7lmkbgfhs2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/test-classes/AbstractSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/test-classes/AbstractSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/test-classes/ImprovedQuickSortTest$__CLR4_5_29i9imkbgfhsd$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/test-classes/ImprovedQuickSortTest$__CLR4_5_29i9imkbgfhsd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/test-classes/ImprovedQuickSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/test-classes/ImprovedQuickSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/test-classes/NaiveQuickSortTest$__CLR4_5_29k9kmkbgfhsh$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/test-classes/NaiveQuickSortTest$__CLR4_5_29k9kmkbgfhsh.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/test-classes/NaiveQuickSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/test-classes/NaiveQuickSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/test-classes/OptimizedQuickSortTest$__CLR4_5_29m9mmkbgfhsm$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/test-classes/OptimizedQuickSortTest$__CLR4_5_29m9mmkbgfhsm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/clover/test-classes/OptimizedQuickSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/clover/test-classes/OptimizedQuickSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/agg-pkgs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/agg-pkgs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/aui/css/atlassian-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/aui/css/atlassian-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/aui/css/fonts/atlassian-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/aui/css/fonts/atlassian-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/aui/js/aui-datepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/aui/js/aui-datepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/aui/js/aui-experimental.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/aui/js/aui-experimental.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/aui/js/aui-soy.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/aui/js/aui-soy.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/aui/js/aui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/aui/js/aui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/cloud.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/cloud.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/clover-descriptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/clover-descriptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/clover-tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/clover-tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/clover.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/clover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/clover.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/clover.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/AbstractSortTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/AbstractSortTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/AbstractSortTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/AbstractSortTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/ImprovedQuickSortTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/ImprovedQuickSortTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/ImprovedQuickSortTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/ImprovedQuickSortTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/ImprovedQuickSortTest_testAlmostSorted_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/ImprovedQuickSortTest_testAlreadySorted_7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/ImprovedQuickSortTest_testEmptyArray_c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/ImprovedQuickSortTest_testRandomArray_9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/ImprovedQuickSortTest_testReverseSorted_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/ImprovedQuickSortTest_testSingleElement_k.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/ImprovedQuickSortTest_testWithDuplicates_b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/NaiveQuickSortTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/NaiveQuickSortTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/NaiveQuickSortTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/NaiveQuickSortTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/NaiveQuickSortTest_testAlmostSorted_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/NaiveQuickSortTest_testAlreadySorted_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/NaiveQuickSortTest_testEmptyArray_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/NaiveQuickSortTest_testRandomArray_6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/NaiveQuickSortTest_testReverseSorted_j.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/NaiveQuickSortTest_testSingleElement_f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/NaiveQuickSortTest_testWithDuplicates_a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/OptimizedQuickSortTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/OptimizedQuickSortTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/OptimizedQuickSortTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/OptimizedQuickSortTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/OptimizedQuickSortTest_testAlmostSorted_g.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/OptimizedQuickSortTest_testAlreadySorted_8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/OptimizedQuickSortTest_testEmptyArray_5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/OptimizedQuickSortTest_testRandomArray_h.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/OptimizedQuickSortTest_testReverseSorted_e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/OptimizedQuickSortTest_testSingleElement_d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/OptimizedQuickSortTest_testWithDuplicates_i.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/test-AbstractSortTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/test-AbstractSortTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/test-ImprovedQuickSortTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/test-ImprovedQuickSortTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/test-NaiveQuickSortTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/test-NaiveQuickSortTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/test-OptimizedQuickSortTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/test-OptimizedQuickSortTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/test-pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/test-pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/default-pkg/testsrc-pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/default-pkg/testsrc-pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/img/classComplexityChart.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/img/classComplexityChart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/jit.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/jit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/jquery-1.8.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/jquery-1.8.3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/QuickSortBenchmark.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/QuickSortBenchmark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/QuickSortBenchmark.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/QuickSortBenchmark.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/quick-wins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/quick-wins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/sort/ImprovedQuickSort.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/sort/ImprovedQuickSort.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/sort/ImprovedQuickSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/sort/ImprovedQuickSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/sort/NaiveQuickSort.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/sort/NaiveQuickSort.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/sort/NaiveQuickSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/sort/NaiveQuickSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/sort/OptimizedQuickSort.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/sort/OptimizedQuickSort.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/sort/OptimizedQuickSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/sort/OptimizedQuickSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/sort/SortAlgorithm.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/sort/SortAlgorithm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/sort/SortAlgorithm.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/sort/SortAlgorithm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/sort/pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/sort/pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/sort/quick-wins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/sort/quick-wins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/sort/test-pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/sort/test-pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/sort/top-risks.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/sort/top-risks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/test-pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/test-pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/org/example/top-risks.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/org/example/top-risks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/package-nodes-tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/package-nodes-tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/quick-wins.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/quick-wins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/test-pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/test-pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/testsrc-agg-pkgs.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/testsrc-agg-pkgs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/testsrc-pkg-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/testsrc-pkg-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/top-risks.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/top-risks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/tree.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/tree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/treemap-dash-json.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/treemap-dash-json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/treemap-json.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/treemap-json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/clover/treemap.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/clover/treemap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ImprovedQuickSortTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ImprovedQuickSortTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/NaiveQuickSortTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/NaiveQuickSortTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/OptimizedQuickSortTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/OptimizedQuickSortTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ImprovedQuickSortTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ImprovedQuickSortTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-NaiveQuickSortTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-NaiveQuickSortTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-OptimizedQuickSortTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-OptimizedQuickSortTest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +251,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "review-src",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Alexsa7161/OneDrive/Рабочий стол/java_labs/lab3/lab3_lock_free_queue",
     "node.js.detected.package.eslint": "true",
@@ -179,6 +374,7 @@
       <updated>1768225581568</updated>
       <workItem from="1768233698686" duration="13305000" />
       <workItem from="1768494105697" duration="70000" />
+      <workItem from="1768928571264" duration="1441000" />
     </task>
     <servers />
   </component>

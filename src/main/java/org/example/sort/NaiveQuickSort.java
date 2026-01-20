@@ -3,31 +3,38 @@ package org.example.sort;
 public class NaiveQuickSort implements SortAlgorithm {
 
     @Override
-    public void sort(int[] array) {
-        quickSort(array, 0, array.length - 1);
+    public void sort(int[] arr) {
+        qsort(arr, 0, arr.length - 1);
     }
 
-    private void quickSort(int[] a, int l, int r) {
-        if (l >= r) return;
+    private void qsort(int[] arr, int left, int right) {
+        if (left >= right) {
+            return;
+        }
 
-        int pivot = a[l];
-        int i = l;
-        int j = r;
+        int pivot = arr[left];
+        int i = left;
+        int j = right;
 
         while (i <= j) {
-            while (a[i] < pivot) i++;
-            while (a[j] > pivot) j--;
+            while (arr[i] < pivot) {
+                i++;
+            }
+            while (arr[j] > pivot) {
+                j--;
+            }
+
             if (i <= j) {
-                int tmp = a[i];
-                a[i] = a[j];
-                a[j] = tmp;
+                int buff = arr[i];
+                arr[i] = arr[j];
+                arr[j] = buff;
                 i++;
                 j--;
             }
         }
 
-        quickSort(a, l, j);
-        quickSort(a, i, r);
+        qsort(arr, left, j);
+        qsort(arr, i, right);
     }
 
     @Override

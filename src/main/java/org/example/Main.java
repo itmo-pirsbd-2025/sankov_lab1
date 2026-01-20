@@ -1,66 +1,64 @@
 package org.example;
 
 import org.example.sort.*;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
 public class Main {
 
-    private static final int SIZE = 100_000_000;
-    private static final int RUNS = 1;
+    private static final int N = 100_000_000;
+    private static final int ROUNDS = 1;
 
     public static void main(String[] args) throws InterruptedException {
-        List<SortAlgorithm> algorithms = List.of(
+        List<SortAlgorithm> sorts = List.of(
                 new NaiveQuickSort(),
                 new ImprovedQuickSort(),
                 new OptimizedQuickSort()
         );
 
-        int[] base = generateRandomArray(SIZE);
+        int[] arr = randArray(N);
 
-        System.out.println("Array size: " + SIZE);
-        System.out.println("Measured runs: " + RUNS);
+        System.out.println("размер: " + N);
+        System.out.println("повторов: " + ROUNDS);
         System.out.println();
 
-        for (SortAlgorithm algo : algorithms) {
-            long total = 0;
+        for (SortAlgorithm s : sorts) {
+            long totalTime = 0;
 
-            for (int i = 0; i < RUNS; i++) {
-                int[] data = Arrays.copyOf(base, base.length);
+            for (int r = 0; r < ROUNDS; r++) {
+                int[] copy = Arrays.copyOf(arr, arr.length);
 
-                long start = System.nanoTime();
-                algo.sort(data);
-                long end = System.nanoTime();
+                long t1 = System.nanoTime();
+                s.sort(copy);
+                long t2 = System.nanoTime();
 
-                if (!isSorted(data)) {
-                    throw new IllegalStateException(algo.name() + " produced unsorted array");
+                if (!sorted(copy)) {
+                    throw new RuntimeException(s.name() + " сломался");
                 }
 
-                long time = end - start;
-                total += time;
+                totalTime += t2 - t1;
             }
 
-            double avgMs = total / 1_000_000.0 / RUNS;
-            System.out.printf("%-20s : %.3f ms%n", algo.name(), avgMs);
+            double ms = totalTime / 1e6 / ROUNDS;
+            System.out.printf("%-18s : %.2f ms\n", s.name(), ms);
 
-            Thread.sleep(30_000);
+            Thread.sleep(30000); // остудить CPU + для показательности на профилировании
         }
     }
 
-    private static int[] generateRandomArray(int size) {
-        Random rnd = new Random(42);
-        int[] a = new int[size];
-        for (int i = 0; i < size; i++) {
-            a[i] = rnd.nextInt();
+    private static int[] randArray(int n) {
+        Random r = new Random(42);
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++) {
+            a[i] = r.nextInt();
         }
         return a;
     }
 
-    private static boolean isSorted(int[] a) {
+    private static boolean sorted(int[] a) {
         for (int i = 1; i < a.length; i++) {
-            if (a[i - 1] > a[i]) return false;
+            if (a[i-1] > a[i]) return false;
         }
         return true;
     }

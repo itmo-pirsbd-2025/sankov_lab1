@@ -1,64 +1,57 @@
 package org.example;
 
-import org.example.sort.NaiveQuickSort;
-import org.example.sort.ImprovedQuickSort;
-import org.example.sort.OptimizedQuickSort;
+import org.example.sort.*;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.Runner;
-import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 
-import java.util.concurrent.TimeUnit;
-import java.util.Random;
 import java.util.Arrays;
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 @Warmup(iterations = 2, time = 1)
 @Measurement(iterations = 3, time = 1)
 @State(Scope.Thread)
-@Fork(value = 1)
+@Fork(1)
 public class QuickSortBenchmark {
 
-    private int[] array;
-    private final NaiveQuickSort naiveSorter = new NaiveQuickSort();
-    private final ImprovedQuickSort improvedSorter = new ImprovedQuickSort();
-    private final OptimizedQuickSort optimizedSorter = new OptimizedQuickSort();
+    @Param({"1e5", "5e5", "1e6"})
+    private int n;
 
-    @Param({"100000", "500000", "1000000"})
-    private int size;
+    private int[] data;
+    private final NaiveQuickSort naive = new NaiveQuickSort();
+    private final ImprovedQuickSort imp = new ImprovedQuickSort();
+    private final OptimizedQuickSort opt = new OptimizedQuickSort();
 
     @Setup(Level.Invocation)
-    public void setUp() {
-        Random random = new Random(42);
-        array = random.ints(size, 0, 1_000_000).toArray();
-    }
-    @Benchmark
-    public void benchmark1_naive() {
-        int[] copy = Arrays.copyOf(array, array.length);
-        naiveSorter.sort(copy);
+    public void setup() {
+        Random r = new Random(42);
+        data = r.ints(n, 0, 1000000).toArray();
     }
 
-    @Benchmark
-    public void benchmark2_improved() {
-        int[] copy = Arrays.copyOf(array, array.length);
-        improvedSorter.sort(copy);
+    @Benchmark public void naive() {
+        int[] arr = Arrays.copyOf(data, n);
+        naive.sort(arr);
     }
 
-    @Benchmark
-    public void benchmark3_optimized() {
-        int[] copy = Arrays.copyOf(array, array.length);
-        optimizedSorter.sort(copy);
+    @Benchmark public void imp() {
+        int[] arr = Arrays.copyOf(data, n);
+        imp.sort(arr);
+    }
+
+    @Benchmark public void opt() {
+        int[] arr = Arrays.copyOf(data, n);
+        opt.sort(arr);
     }
 
     public static void main(String[] args) throws Exception {
-        Options opt = new OptionsBuilder()
+        new Runner(new OptionsBuilder()
                 .include(QuickSortBenchmark.class.getSimpleName())
                 .forks(1)
                 .warmupIterations(2)
                 .measurementIterations(3)
-                .build();
-
-        new Runner(opt).run();
+                .build()).run();
     }
 }
