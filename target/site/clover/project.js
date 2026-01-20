@@ -1,0 +1,2 @@
+processClover (  {"children":["org/example/","org/example/sort/"],"name":"Clover database вт янв. 20 2026 20:23:44 MSK","stats":{"AvgMethodComplexity":2.3333333,"Complexity":49,"ErroneousTests":0,"FailingTests":0,"FilteredElements":0,"PassingTests":0,"PcErroneousTests":-1,"PcFailingTests":-1,"PcPassingTests":-1,"TestExecutionTime":0,"Tests":0,"TotalChildren":2,"TotalPercentageCovered":69.230774,"TotalStatements":118,"UncoveredElements":60},"title":"lab1_sort 1.0-SNAPSHOT"}
+ ); 
